@@ -1,0 +1,36 @@
+{
+  "name": "klaviyo-subscribe",
+  "version": "0.0.1",
+  "description": "Tiny Klaviyo list subscribe utility.",
+  "source": "index.js",
+  "module": "dist/klaviyo-subscribe.es.js",
+  "jsnext:main": "dist/klaviyo-subscribe.es.js",
+  "main": "dist/klaviyo-subscribe.js",
+  "umd:main": "dist/klaviyo-subscribe.umd.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "microbundle build",
+    "watch": "microbundle watch --compress false",
+    "publish": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/estrattonbailey/klaviyo-subscribe.git"
+  },
+  "author": "estrattonbailey",
+  "license": "MIT",
+  "keywords": [
+    "klaviyo",
+    "subscribe",
+    "email"
+  ],
+  "bugs": {
+    "url": "https://github.com/estrattonbailey/klaviyo-subscribe/issues"
+  },
+  "homepage": "https://github.com/estrattonbailey/klaviyo-subscribe#readme",
+  "devDependencies": {
+    "microbundle": "^0.4.4"
+  }
+}
