@@ -9,7 +9,7 @@ export function subscribe (listId, email, params = {}) {
     return str
   }, new URLSearchParams())
 
-  return fetch('https://a.klaviyo.com/ajax/subscriptions/subscribe', {
+  return fetch('https://manage.kmail-lists.com/ajax/subscriptions/subscribe', {
     method: 'POST',
     headers: {
       "Access-Control-Allow-Headers": "*",
