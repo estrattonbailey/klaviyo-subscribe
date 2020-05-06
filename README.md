@@ -11,7 +11,7 @@ npm i klaviyo-subscribe --save
 # Usage
 
 ```javascript
-import subscribe from "klaviyo-subscribe";
+import { subscribe } from "klaviyo-subscribe";
 
 const listId = "JFDd6y";
 const email = "email@email.com";
@@ -25,7 +25,7 @@ subscribe(listId, email, {
 Sending Custom field data into a list:
 
 ```javascript
-import subscribe from "klaviyo-subscribe";
+import { subscribe } from "klaviyo-subscribe";
 
 const listId = "JFDd6y";
 const email = "email@email.com";
