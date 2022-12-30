@@ -31,6 +31,6 @@
   },
   "homepage": "https://github.com/estrattonbailey/klaviyo-subscribe#readme",
   "devDependencies": {
-    "microbundle": "^0.4.4"
+    "microbundle": "^0.15.1"
   }
 }
